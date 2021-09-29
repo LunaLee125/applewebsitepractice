@@ -42,8 +42,8 @@ html{
     top: 11px;
     left: 0;
     width: 600px;
-    height: 400px;
-    padding-top: 80px;
+    height: 800px;
+    padding-top: 100px;
     padding-right: 100px;
     padding-left: 50px;
     padding-bottom: 80px;
@@ -82,6 +82,8 @@ html{
     right: 60px;
     padding: 10px;
     font-size: 30px;
+    color: white;
+    
 }
 
 .video{
