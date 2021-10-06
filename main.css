@@ -147,33 +147,34 @@ iframe{
     color: white;
 }
 
-footer{
-    background-color: rgb(240, 60, 60);
+.footer{
+    background-color: rgb(246, 160, 160);
     position: relative;
-    top: -40px;
+    top: -55px;
     height: 150px;
     width: 100%;
+    display: flex;
+    justify-content: space-between;   
 }
 
-h5{
+.desc{
     position: relative;
-    margin-top: 20px;
-    margin-left: 100px;
+    left: 100px;
+    top: 30px;
     width: 100%;
-    text-align: center;
-}
-
-.b{
-    position: relative;
-    margin-left: 80px;
-    margin-bottom: 10px;
-    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .contact{
     position: relative;
-    list-style: none;
-    text-align: center;
     width: 100%;
+    text-decoration: none;
+    list-style: none; 
+}
+
+.c{
+    position:relative;
+    top: 80px;
 }
 
