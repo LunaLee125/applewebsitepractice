@@ -6,6 +6,7 @@ Citation:
     https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
     https://developer.mozilla.org/en-US/docs/Web/CSS/padding
     https://developer.mozilla.org/en-US/docs/Web/CSS/position
+    https://www.section.io/engineering-education/embedding-a-video-into-a-webpage-using-html-and-css/#embedding-a-video-into-a-webpage-using-html-and-css
 */
 
 html{
@@ -91,7 +92,7 @@ h3{
 
 .vid{
     position: relative;
-    background-color: crimson;
+    background-color: rgb(187, 54, 54);
     width: 100%;
     top: -20px;
     height: 700px;
@@ -100,12 +101,12 @@ h3{
 }
 
 .txt{
-    top: 150px;
-    width: 500px;
+    top: 100px;
+    width: 400px;
     padding: 10px;
     word-wrap: break-word;
     position: absolute;
-    right: 300px;
+    right: 80px;
     font-size: 30px;
     color: white;
 }
@@ -114,19 +115,48 @@ iframe{
     position: relative;
     left: 100px;
     top: 100px;
+    bottom: 100px;
+}
+
+.graph{
+    position: relative;
+    background-color: rgb(170, 39, 39);
+    width: 100%;
+    top: -20px;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.graphic{
+    position: relative;
+    width: 700px;
+    left: 650px;
+    top: 50px;
+    border: 2px dotted red;
+}
+
+.txt2{
+    top: 200px;
+    width: 400px;
+    padding: 10px;
+    word-wrap: break-word;
+    position: absolute;
+    left: 100px;
+    font-size: 30px;
+    color: white;
 }
 
 footer{
     background-color: rgb(240, 60, 60);
     position: relative;
-    /* margin-left: -10px; */
-    /* margin-right: -10px; */
+    top: -40px;
     height: 150px;
     width: 100%;
 }
 
 h5{
-    position: absolute;
+    position: relative;
     margin-top: 20px;
     margin-left: 100px;
     width: 100%;
@@ -134,12 +164,14 @@ h5{
 }
 
 .b{
+    position: relative;
     margin-left: 80px;
     margin-bottom: 10px;
     width: 100%;
 }
 
 .contact{
+    position: relative;
     list-style: none;
     text-align: center;
     width: 100%;
