@@ -3,30 +3,32 @@ Citation:
     https://stackoverflow.com/questions/22592064/how-to-align-text-below-an-image-in-css
     https://www.tutorialspoint.com/How-to-use-an-image-as-a-link-in-HTML
     https://www.w3schools.com/cssref/default.asp
+    https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+    https://developer.mozilla.org/en-US/docs/Web/CSS/padding
+    https://developer.mozilla.org/en-US/docs/Web/CSS/position
 */
 
 html{
     font-family: Homemade Apple;
     background-color: rgb(0, 0, 0);
-    width: 100%;
 }
 
 body{
-    margin: 0px;
+    margin: 0px 0px 0px 0px;
     padding: 0px;
 }
 
 .header{
     background-color: rgb(80, 0, 16);
-    padding: 20px;
-    list-style: none;
-    margin: -10px -10px;
+    padding: 20px 40px 15px 20px;
+    margin: 0px;
     height: 40px;
+    list-style: none;
     display: flex;
     justify-content: space-between;   
 }
 .logo{
-    width: 25px;
+    width: 40px;
 }
 .links{
     text-decoration: none;
@@ -34,44 +36,62 @@ body{
 }
 
 .close{
-    position: absolute;
+    position: relative;
     width: 100%;
-    height: 100%;
+    height: 700px;
     object-fit: cover;
-    margin: 0px;
 }
 .hero{
     background: rgba(255, 53, 53, 0.486);
     position: absolute;
-    top: 60px;
-    width: 900px;
+    top: 75px;
+    width: 1000px;
     height: 100%;
-    padding: 0px;
-    margin: 0;
     color: rgb(255, 255, 255);
-    left: -10px;
 }
-
 h1{
+    position: relative;
     font-weight: bold;
     font-size: 90px;
-    text-decoration: underline;
-    text-align: center;
-    margin-top: 60px;
+    text-decoration:underline;
+    left: 150px;
+    top: 60px;
 }
-
 h3{
+    position: relative;
+    padding: 0px;
     font-size:20px;
     line-height: 50px;
-    letter-spacing: 3px;
+    letter-spacing: 0px;
+    word-spacing: 5px;
     text-align: left;
-    width: 500px;
-    margin-left: 150px;
+    width: 600px;
+    left: 150px;
+    top: -30px;
+}
+.headerlinks{
+    position: relative;
+    padding: 8px 10px 5px 15px;
+    font-size:20px;
+    line-height: 50px;
+    letter-spacing: 0px;
+    word-spacing: 5px;
+    text-align: left;
+    width: 600px;
+    left: 150px;
+    top: -30px;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(170, 45, 45);
+    border-radius: 10px;
+}
+.learn, .gallery{
+    padding-right: 50px;
+
 }
 
 .vid{
-    position: absolute;
-    margin-top: 700px;
+    position: relative;
     background-color: crimson;
     width: 100%;
     height: 800px;
@@ -100,7 +120,6 @@ h3{
 footer{
     background-color: rgb(240, 60, 60);
     position: relative;
-    margin-top: 1350px;
     /* margin-left: -10px; */
     /* margin-right: -10px; */
     height: 150px;
