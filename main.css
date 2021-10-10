@@ -33,7 +33,7 @@ body{
 }
 .links{
     text-decoration: none;
-    color: rgb(222, 255, 189);
+    color: rgb(255, 189, 189);
 }
 
 .close{
@@ -101,7 +101,7 @@ h3{
 }
 
 .txt{
-    top: 100px;
+    top: 140px;
     width: 400px;
     padding: 10px;
     word-wrap: break-word;
@@ -114,7 +114,7 @@ h3{
 iframe{
     position: relative;
     left: 100px;
-    top: 100px;
+    top: 140px;
     bottom: 100px;
 }
 
@@ -132,8 +132,8 @@ iframe{
     position: relative;
     width: 700px;
     left: 650px;
-    top: 50px;
-    border: 2px dotted red;
+    top: 60px;
+    border: 2px solid red;
 }
 
 .txt2{
@@ -154,7 +154,8 @@ iframe{
     height: 150px;
     width: 100%;
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-between;  
+    color: rgb(136, 136, 136); 
 }
 
 .desc{
@@ -164,6 +165,7 @@ iframe{
     width: 100%;
     font-size: 20px;
     font-weight: bold;
+    text-decoration: underline;
 }
 
 .contact{
@@ -177,4 +179,5 @@ iframe{
     position:relative;
     top: 80px;
 }
+
 

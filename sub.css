@@ -1,4 +1,4 @@
-html{
+/* html{
     font-family: Homemade Apple;
     background-color: rgb(156, 37, 37);
 }
@@ -18,6 +18,33 @@ html{
 .typeslink{
     text-decoration: none;
     color: rgb(222, 255, 189);
+} */
+
+html{
+    font-family: Homemade Apple;
+    background-color: rgb(156, 37, 37);
+}
+
+body{
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+}
+
+.header{
+    background-color: rgb(80, 0, 16);
+    padding: 20px 40px 15px 20px;
+    margin: 0px;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;   
+}
+.logo{
+    width: 40px;
+}
+.links{
+    text-decoration: none;
+    color: rgb(255, 189, 189);
 }
 
 h1{
@@ -35,6 +62,7 @@ img{
     object-fit: cover;
     width: 300px;
     height: 300px;
+    border-radius: 10px;
 }
 
 div.item {
@@ -42,7 +70,7 @@ div.item {
     display: inline-block;
     text-align: center;
     justify-content: space-between;   
-    margin: 30px;
+    margin: 40px;
 }
 
 .caption {
@@ -62,3 +90,35 @@ div.item {
     margin-left: 160px;
 }
 
+.footer{
+    background-color: rgb(246, 160, 160);
+    position: relative;
+    top:15px;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;  
+    color: rgb(136, 136, 136); 
+}
+
+.desc{
+    position: relative;
+    left: 100px;
+    top: 30px;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.contact{
+    position: relative;
+    width: 100%;
+    text-decoration: none;
+    list-style: none; 
+}
+
+.c{
+    position:relative;
+    top: 80px;
+}
