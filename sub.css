@@ -1,25 +1,3 @@
-/* html{
-    font-family: Homemade Apple;
-    background-color: rgb(156, 37, 37);
-}
-
-.header{
-    background-color: rgb(80, 0, 16);
-    padding: 20px;
-    list-style: none;
-    margin: -10px -10px;
-    height: 40px;
-    display: flex;
-    justify-content: space-between;   
-}
-.logo{
-    width: 25px;
-}
-.typeslink{
-    text-decoration: none;
-    color: rgb(222, 255, 189);
-} */
-
 html{
     font-family: Homemade Apple;
     background-color: rgb(156, 37, 37);
@@ -39,25 +17,37 @@ body{
     display: flex;
     justify-content: space-between;   
 }
-.logo{
-    width: 40px;
-}
+
 .links{
     text-decoration: none;
     color: rgb(255, 189, 189);
 }
 
-h1{
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    border: dotted red;
-    background-color: black;
-    padding: 10px 0px;
-    margin: 60px;
+.logo{
+    width: 40px;
 }
 
-img{
+.gallery{
+    border: dotted red;
+    margin-left: 140px;
+    margin-right: 140px;
+}
+
+.head{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    /* padding: 10px 0px; */
+    padding: 50px;
+    display: flex;
+}
+
+.appledec{
+    width: 30px;
+    height: 30px;
+}
+
+.apple{
     border: solid rgb(255, 0, 0);
     object-fit: cover;
     width: 300px;
@@ -65,29 +55,30 @@ img{
     border-radius: 10px;
 }
 
-div.item {
+.caption {
+    display: block;
+    color: white;
+    font-size: 20px;
+    word-spacing: 5px;
+}
+
+.item1, .item2 {
+    position: relative;
     vertical-align: top;
     display: inline-block;
     text-align: center;
     justify-content: space-between;   
     margin: 40px;
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    
 }
 
-.caption {
-    display: block;
-    color: white;
-    font-size: 30px;
-}
-
-.logo{
-    width: 30px;
-    height: 30px;
-    border: none;
-}
-
-.row1, .row2{
+ .row1, .row2{
     margin-top: 80px;
-    margin-left: 160px;
+    margin-bottom: 80px;
+    margin-left: 100px;
 }
 
 .footer{

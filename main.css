@@ -9,14 +9,11 @@ Citation:
     https://www.section.io/engineering-education/embedding-a-video-into-a-webpage-using-html-and-css/#embedding-a-video-into-a-webpage-using-html-and-css
 */
 
-html{
-    font-family: Homemade Apple;
-    background-color: rgb(0, 0, 0);
-}
-
 body{
     margin: 0px 0px 0px 0px;
     padding: 0px;
+    font-family: Homemade Apple;
+    background-color: rgb(170, 39, 39);
 }
 
 .header{
@@ -147,10 +144,11 @@ iframe{
     color: white;
 }
 
+
 .footer{
     background-color: rgb(246, 160, 160);
     position: relative;
-    top: -55px;
+    top:15px;
     height: 150px;
     width: 100%;
     display: flex;
@@ -179,5 +177,4 @@ iframe{
     position:relative;
     top: 80px;
 }
-
 
